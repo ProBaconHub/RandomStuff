@@ -1,4 +1,5 @@
 local PlayerHumanoid = game.Players.LocalPlayer.Humanoid
-while PlayerHumanoid.WalkSpeed ~= _G.WalkSpeed do
+while PlayerHumanoid.WalkSpeed ~= _G.WalkSpeed or PlayerHumanoid.JumpPower ~= _G.JumpPower do
     PlayerHumanoid.WalkSpeed = _G.WalkSpeed
+    PlayerHumanoid.JumpPower = _G.JumpPower
 end
