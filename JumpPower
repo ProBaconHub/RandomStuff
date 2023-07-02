@@ -1,0 +1,4 @@
+local PlayerHumanoid = game.Players.LocalPlayer.Humanoid
+while PlayerHumanoid.JumpPower ~= _G.JumpPower do
+    PlayerHumanoid.JumpPower = _G.JumpPower
+end
